@@ -1,0 +1,32 @@
+Need of performance testing:
+Performance testng helps ensure to evaluate and establish the software application's speed, scalability, and stability 
+
+six performance testing types:
+
+Load Testing :
+
+Performance testing to check system with constantly increasing the load on the system until the time load is reaches to its threshold value. Here Increasing load means increasing number of concurrent users, transactions & check the behavior of application under test.
+
+Stress Testing:
+
+Performance testing type to check the stability of software when hardware resources are not sufficient like CPU, memory, disk space etc. Normally testing using a larger number of concurrent users per a time where allocated hardware and other resources unable to manage.
+
+Endurance Testing:
+
+Endurance testing involves testing a system with a expected amount of load over a long period of time to find the behavior of system. Endurance testing is also referred as Soak testing.
+
+Eg: If the system is stable 300 concurrent users continuously over 2 hours and testing what will happen if continuously proceed this test for four hours.
+
+Scalability Testing:
+
+Performance testing to test a software application for determine its capability to scale up in terms of any of its non-functional capability like the user load supported, the number of transactions, the data volume etc. This testing is using to identify the what peak the system prevent more scalling.
+
+Spike Testing:
+
+Subset of Stress Testing. A spike test is carried out to validate the performance characteristics when the system under test subjected to workload models and load volumes that repeatedly increase beyond anticipated production operations for short periods of time.
+
+Volume Testing:
+
+Performance testing is referring to test a software application with a large amount of data to be processed to check the efficiency of the application. The purpose of this testing is to identify the application or system behavior under varying database volumes.
+
+Performance testing is very important to have stable system and to give good customer support on every situations and help to eliminate or mitigate the risks based on application behavior. There are many kind of open source and commercial tools to proceed those performance testings. The tools and the flow will talk on next write up. 
